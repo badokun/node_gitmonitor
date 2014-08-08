@@ -1,5 +1,5 @@
 {
-    "name": "commit-monitor",
+    "name": "node_gitmonitor",
     "version": "0.0.1",
     "dependencies": {
         "gift": "*"
