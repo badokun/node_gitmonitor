@@ -4,4 +4,4 @@
 
 var gitlab = require("./lib/gitlab.js");
 
-    gitlab.sayHi();
+    gitlab.getMostRecentChanges();
