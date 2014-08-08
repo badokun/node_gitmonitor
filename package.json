@@ -1,0 +1,12 @@
+{
+    "name": "commit-monitor",
+    "version": "0.0.1",
+    "dependencies": {
+        "gift": "*"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-watch": "*"
+    }
+}
