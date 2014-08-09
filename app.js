@@ -3,5 +3,9 @@
  */
 
 var gitlab = require("./lib/gitlab.js");
+var config = require("./lib/config.js");
 
-    gitlab.getMostRecentChanges();
+
+//config.someMethod();
+
+gitlab.getMostRecentChanges();
