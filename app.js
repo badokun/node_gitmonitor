@@ -6,6 +6,7 @@ var gitlab = require("./lib/gitlab.js");
 var config = require("./lib/config.js");
 
 
-//config.someMethod();
-
-gitlab.getMostRecentChanges();
+function something() {
+    console.log('what happens here');
+}
+gitlab.getMostRecentChanges(something);
