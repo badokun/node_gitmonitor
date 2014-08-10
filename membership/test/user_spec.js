@@ -1,13 +1,15 @@
 /**
  * Created by henno on 14/08/10.
  */
-var should = require('should');
+var should = require("should");
+var User = require("../models/user");
 
 describe("User", function(){
 
 
     describe("defaults", function(){
         var user = {};
+        
         before(function(){
             user = new User({email:"test@test.com"});
         });
@@ -15,5 +17,4 @@ describe("User", function(){
         it("email is test@test.com");
         it("has login");
     });
-
 });
