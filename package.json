@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "gift": "*",
-    "secondthought": "0.0.3",
-    "assert": "~1.1.1"
+    "assert": "~1.1.1",
+    "secondthought": "0.0.3"
   },
   "devDependencies": {
     "grunt": "*",
