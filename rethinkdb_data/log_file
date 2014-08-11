@@ -54,3 +54,22 @@
 2014-08-11T22:30:33.025850552 4352.288456s info: Applying data {"databases":{"27d8e328-c7a0-4dd6-b942-ece1d8529610":null},"rdb_namespaces":{"421d250e-9030-46f1-b7c7-997b7d2672af":null,"a24a6133-5ab6-4166-bc3a-19e94bac054b":null,"dd2b2247-3fcd-44bb-980d-a88cb58c4e97":null}}
 2014-08-11T22:34:05.429294260 4564.691900s info: Applying data {"databases":{"5da19e58-c82c-41b4-92ef-5484e596b996":null},"rdb_namespaces":{"66f17ac9-2390-425e-8202-23e2b4b72daf":null,"be83aa21-a933-4412-8e1b-81500f301bcb":null,"e608a6b9-e380-428b-b7b6-d8f9cebee500":null}}
 2014-08-11T22:39:59.501422433 4918.764028s info: Applying data {"databases":{"5bd7d5e3-6e67-4c12-9581-6177b379d879":null},"rdb_namespaces":{"620997ba-5098-4e05-8d0c-b6539cd2ae1b":null,"6fe7ec09-95a6-49bb-9d06-d70d00630b1c":null,"76811316-9f16-402c-8b81-cf0ccc6679eb":null}}
+2014-08-12T07:04:29.351148000 0.002718s info: Running rethinkdb 1.13.3 (CLANG 5.1 (clang-503.0.40))...
+2014-08-12T07:04:29.353678000 0.005248s info: Running on Darwin 13.3.0 x86_64
+2014-08-12T07:04:29.353698000 0.005268s info: Using cache size of 100 MB
+2014-08-12T07:04:29.353713000 0.005282s warn: Cache size does not leave much memory for server and query overhead (available memory: 518 MB).
+2014-08-12T07:04:29.353722000 0.005291s warn: Cache size is very low and may impact performance.
+2014-08-12T07:04:29.353729000 0.005299s info: Loading data from directory /Users/henno/development/node_commitmonitor/rethinkdb_data
+2014-08-12T07:04:29.359253000 0.010823s info: Listening for intracluster connections on port 29015
+2014-08-12T07:04:29.360048000 0.011618s info: Listening for client driver connections on port 28015
+2014-08-12T07:04:29.360128000 0.011697s info: Listening for administrative HTTP connections on port 8080
+2014-08-12T07:04:29.360129000 0.011699s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-12T07:04:29.360135000 0.011705s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-12T07:04:29.360136000 0.011705s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-12T07:04:29.360142000 0.011712s info: Server ready
+2014-08-12T07:10:48.480849000 379.136680s info: Applying data {"databases":{"a582878f-0514-47ba-a09c-e7de9c2d4a5e":null},"rdb_namespaces":{"79ad774e-2893-4afa-a075-c7f04099efbc":null,"926c4bbe-b222-4392-bc03-51dcf705ed15":null,"f10d812b-681a-4806-8ccb-edee854c239c":null}}
+2014-08-12T08:08:48.984910000 3859.679769s info: Server got SIGINT from pid 14960, uid 503; shutting down...
+2014-08-12T08:08:48.985157000 3859.680016s info: Shutting down client connections...
+2014-08-12T08:08:48.985463000 3859.680322s info: All client connections closed.
+2014-08-12T08:08:48.985468000 3859.680326s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-08-12T08:08:48.996650000 3859.691509s info: Storage engine shut down.

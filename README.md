@@ -33,3 +33,5 @@ Then to load rethinkdb now:
     launchctl load ~/Library/LaunchAgents/homebrew.mxcl.rethinkdb.plist
 
 To run type: rethinkdb
+
+Update packages on secondthought - http://stackoverflow.com/a/22849716
