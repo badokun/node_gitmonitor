@@ -35,3 +35,16 @@
 2014-08-11T08:53:50.951302000 1889.409241s info: Applying data {"rdb_namespaces":{"new":{"name":"users","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"aed844f5-fe07-465b-8382-e0cb787efe65","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
 2014-08-11T08:54:12.414578000 1910.872764s info: Applying data {"rdb_namespaces":{"new":{"name":"logs","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"aed844f5-fe07-465b-8382-e0cb787efe65","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
 2014-08-11T08:54:16.781106000 1915.239336s info: Applying data {"rdb_namespaces":{"new":{"name":"sessions","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"aed844f5-fe07-465b-8382-e0cb787efe65","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
+2014-08-11T20:07:41.446654623 0.202355s info: Running rethinkdb 1.13.3-0ubuntu1~trusty (GCC 4.8.2)...
+2014-08-11T20:07:41.452839693 0.208541s info: Running on Linux 3.13.0-32-generic x86_64
+2014-08-11T20:07:41.452982102 0.208683s info: Using cache size of 100 MB
+2014-08-11T20:07:41.453790599 0.209491s warn: Cache size does not leave much memory for server and query overhead (available memory: 214 MB).
+2014-08-11T20:07:41.453887047 0.209587s warn: Cache size is very low and may impact performance.
+2014-08-11T20:07:41.453942244 0.209643s info: Loading data from directory /home/henno/development/github/node_gitmonitor/rethinkdb_data
+2014-08-11T20:07:41.497355214 0.253056s info: Listening for intracluster connections on port 29015
+2014-08-11T20:07:41.498025365 0.253726s info: Listening for client driver connections on port 28015
+2014-08-11T20:07:41.498080841 0.253781s info: Listening for administrative HTTP connections on port 8080
+2014-08-11T20:07:41.498084597 0.253785s info: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2014-08-11T20:07:41.498084804 0.253785s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-11T20:07:41.498087129 0.253787s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-11T20:07:41.498087330 0.253788s info: Server ready

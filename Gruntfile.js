@@ -22,8 +22,6 @@ module.exports = function(grunt){
 
         db.connect({ db : "membership" }, function(err, db){
 
-
-
             db.install(['users', 'logs', 'sessions'], function(err,tableResult){
                 console.log("connecting to db");
                 assert.ok(err === null, err);
@@ -35,4 +33,6 @@ module.exports = function(grunt){
 
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.loadNpmTasks("grunt-contrib-watch");
+
+
 }
