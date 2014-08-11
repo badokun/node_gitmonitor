@@ -1,0 +1,37 @@
+2014-08-11T08:18:34.673553000 0.003590s info: Creating directory /Users/henno/development/node_commitmonitor/rethinkdb_data
+2014-08-11T08:18:34.674830000 0.004867s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/henno/development/node_commitmonitor/rethinkdb_data' did not already exist.)
+2014-08-11T08:18:34.674864000 0.004901s info: Running rethinkdb 1.13.3 (CLANG 5.1 (clang-503.0.40))...
+2014-08-11T08:18:34.685231000 0.015269s info: Running on Darwin 13.3.0 x86_64
+2014-08-11T08:18:34.685261000 0.015298s info: Using cache size of 100 MB
+2014-08-11T08:18:34.685277000 0.015314s warn: Cache size does not leave much memory for server and query overhead (available memory: 327 MB).
+2014-08-11T08:18:34.685286000 0.015323s warn: Cache size is very low and may impact performance.
+2014-08-11T08:18:34.685293000 0.015330s info: Loading data from directory /Users/henno/development/node_commitmonitor/rethinkdb_data
+2014-08-11T08:18:34.790475000 0.120512s info: Listening for intracluster connections on port 29015
+2014-08-11T08:18:34.791857000 0.121894s info: Listening for client driver connections on port 28015
+2014-08-11T08:18:34.791909000 0.121946s info: Listening for administrative HTTP connections on port 8080
+2014-08-11T08:18:34.791933000 0.121970s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-11T08:18:34.791940000 0.121977s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-11T08:18:34.791947000 0.121984s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-11T08:18:34.791954000 0.121991s info: Server ready
+2014-08-11T08:19:11.301173000 36.631626s info: Server got SIGINT from pid 14960, uid 503; shutting down...
+2014-08-11T08:19:11.301392000 36.631844s info: Shutting down client connections...
+2014-08-11T08:19:11.302885000 36.633337s info: All client connections closed.
+2014-08-11T08:19:11.302903000 36.633355s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-08-11T08:19:11.302943000 36.633395s info: Storage engine shut down.
+2014-08-11T08:22:21.566037000 0.002790s info: Running rethinkdb 1.13.3 (CLANG 5.1 (clang-503.0.40))...
+2014-08-11T08:22:21.569655000 0.006408s info: Running on Darwin 13.3.0 x86_64
+2014-08-11T08:22:21.569675000 0.006428s info: Using cache size of 100 MB
+2014-08-11T08:22:21.569690000 0.006443s warn: Cache size does not leave much memory for server and query overhead (available memory: 273 MB).
+2014-08-11T08:22:21.569699000 0.006452s warn: Cache size is very low and may impact performance.
+2014-08-11T08:22:21.569707000 0.006460s info: Loading data from directory /Users/henno/development/node_commitmonitor/rethinkdb_data
+2014-08-11T08:22:21.575137000 0.011890s info: Listening for intracluster connections on port 29015
+2014-08-11T08:22:21.575941000 0.012695s info: Listening for client driver connections on port 28015
+2014-08-11T08:22:21.575993000 0.012747s info: Listening for administrative HTTP connections on port 8080
+2014-08-11T08:22:21.576002000 0.012755s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-11T08:22:21.576008000 0.012762s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-11T08:22:21.576015000 0.012768s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-11T08:22:21.576021000 0.012774s info: Server ready
+2014-08-11T08:53:24.926710000 1863.384358s info: Applying data {"databases":{"new":{"name":"membership"}}}
+2014-08-11T08:53:50.951302000 1889.409241s info: Applying data {"rdb_namespaces":{"new":{"name":"users","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"aed844f5-fe07-465b-8382-e0cb787efe65","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
+2014-08-11T08:54:12.414578000 1910.872764s info: Applying data {"rdb_namespaces":{"new":{"name":"logs","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"aed844f5-fe07-465b-8382-e0cb787efe65","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
+2014-08-11T08:54:16.781106000 1915.239336s info: Applying data {"rdb_namespaces":{"new":{"name":"sessions","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"aed844f5-fe07-465b-8382-e0cb787efe65","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
