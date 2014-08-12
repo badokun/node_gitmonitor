@@ -4,7 +4,7 @@
   "dependencies": {
     "gift": "*",
     "assert": "~1.1.1",
-    "secondthought": "0.0.3"
+    "secondthought": "https://github.com/badokun/second-thought/tarball/master"
   },
   "devDependencies": {
     "grunt": "*",
