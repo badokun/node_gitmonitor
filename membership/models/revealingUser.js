@@ -10,9 +10,8 @@ var RevealingUser = function(){
 
 
     var user = {};
-
     user.createdAt =  new Date();
-
+    user.isValid = false;
 
 
     function getEmail() {
