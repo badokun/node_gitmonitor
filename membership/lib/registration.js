@@ -1,19 +1,18 @@
 /**
  * Created by henno on 8/13/14.
  */
+var db = require('secondthought');
 var Application = require('../models/application');
 var RegResult = require('../models/regResult');
 var User = require('../models/user');
-
-var db = require("secondthought");
 
 
 var Registration = function(){
 
     function checkIfUserExists(app){
-      db.connect({db:"membership"}, function(){
+      db.connect({db:"membership"}, function(err, db){
 
-          db.users.exists({email:app.email}, function(err, exists){
+          db.users.exists ({email:app.email}, function(err, exists){
             if (exists){
              app.setInvalid();
             };

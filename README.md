@@ -38,3 +38,7 @@ Update packages on secondthought - http://stackoverflow.com/a/22849716
 
 Testing with should
 // https://github.com/shouldjs/should.js
+
+Node debugging
+    https://github.com/node-inspector/node-inspector
+    sudo npm install -g node-inspector
