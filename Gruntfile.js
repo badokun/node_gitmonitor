@@ -3,6 +3,7 @@
  */
 
 var db = require("secondthought");
+var assert = require("assert");
 
 module.exports = function(grunt){
 
@@ -21,6 +22,9 @@ module.exports = function(grunt){
         var done = this.async();
 
         db.connect({ db : "membership" }, function(err, db){
+            db.dropDb("membership", function(){
+               console.log();
+            });
 
             db.install(['users', 'logs', 'sessions'], function(err,tableResult){
                 console.log("connecting to db");

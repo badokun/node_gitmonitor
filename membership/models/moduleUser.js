@@ -1,7 +1,7 @@
-/**
+/*
  * Created by henno on 8/11/14.
  *
- * Module Pattern
+ *  Module Pattern
  */
 
 var ModuleUser = function(){

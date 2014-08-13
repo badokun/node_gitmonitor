@@ -2,8 +2,8 @@
   "name": "node_gitmonitor",
   "version": "0.0.1",
   "dependencies": {
-    "gift": "*",
     "assert": "~1.1.1",
+    "gift": "*",
     "secondthought": "https://github.com/badokun/second-thought/tarball/master"
   },
   "devDependencies": {
